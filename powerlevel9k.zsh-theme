@@ -54,31 +54,31 @@ case $POWERLEVEL9K_MODE in
     # See https://github.com/gabrielelana/awesome-terminal-fonts/tree/patching-strategy/patched
     LEFT_SEGMENT_SEPARATOR=''
     RIGHT_SEGMENT_SEPARATOR=''
-    ROOT_ICON="\uE801" # 
-    RUBY_ICON="\uE847" # 
-    AWS_ICON="\uE895" # 
-    BACKGROUND_JOBS_ICON="\uE82F " # 
-    TEST_ICON="\uE891" # 
+    ROOT_ICON="\uF201" # 
+    RUBY_ICON="\uF247" # 
+    AWS_ICON="\uF295" # 
+    BACKGROUND_JOBS_ICON="\uF22F " # 
+    TEST_ICON="\uF291" # 
     OK_ICON="\u2713" # ✓
     FAIL_ICON="\u2718" # ✘
     SYMFONY_ICON="SF"
-    VCS_UNTRACKED_ICON="\uE16C" # 
-    VCS_UNSTAGED_ICON="\uE17C" # 
-    VCS_STAGED_ICON="\uE168" # 
-    VCS_STASH_ICON="\uE133 " # 
-    #VCS_INCOMING_CHANGES="\uE1EB " # 
-    #VCS_INCOMING_CHANGES="\uE80D " # 
-    VCS_INCOMING_CHANGES="\uE131 " # 
-    #VCS_OUTGOING_CHANGES="\uE1EC " # 
-    #VCS_OUTGOING_CHANGES="\uE80E " # 
-    VCS_OUTGOING_CHANGES="\uE132 " # 
-    VCS_TAG_ICON="\uE817 " # 
-    VCS_BOOKMARK_ICON="\uE87B" # 
-    VCS_COMMIT_ICON="\uE821 " # 
-    VCS_BRANCH_ICON="\uE220" # 
-    VCS_REMOTE_BRANCH_ICON=" \uE804 " # 
-    VCS_GIT_ICON="\uE20E  " # 
-    VCS_HG_ICON="\uE1C3  " # 
+    VCS_UNTRACKED_ICON="\uF059" # 
+    VCS_UNSTAGED_ICON="\uF06A" # 
+    VCS_STAGED_ICON="\uF055" # 
+    VCS_STASH_ICON="\uF01C " # 
+    #VCS_INCOMING_CHANGES="\uF0ED " # 
+    #VCS_INCOMING_CHANGES="\uF20D " # 
+    VCS_INCOMING_CHANGES="\uF01A " # 
+    #VCS_OUTGOING_CHANGES="\uF0EE " # 
+    #VCS_OUTGOING_CHANGES="\uF20E " # 
+    VCS_OUTGOING_CHANGES="\uF01B " # 
+    VCS_TAG_ICON="\uF217 " # 
+    VCS_BOOKMARK_ICON="\uF27B" # 
+    VCS_COMMIT_ICON="\uF221 " # 
+    VCS_BRANCH_ICON="\uF222 " # 
+    VCS_REMOTE_BRANCH_ICON=" \uF207 " # 
+    VCS_GIT_ICON="\uF20C  " # 
+    VCS_HG_ICON="\uF0C3  " # 
   ;;
   'compatible')
     LEFT_SEGMENT_SEPARATOR="\u2B80" # ⮀
@@ -110,31 +110,31 @@ case $POWERLEVEL9K_MODE in
     # See https://github.com/gabrielelana/awesome-terminal-fonts/tree/patching-strategy/patched
     LEFT_SEGMENT_SEPARATOR="\uE0B0" # 
     RIGHT_SEGMENT_SEPARATOR="\uE0B2" # 
-    ROOT_ICON="\u26A1" # ⚡
-    RUBY_ICON="\uE847" # 
-    AWS_ICON="\uE895" # 
-    BACKGROUND_JOBS_ICON="\uE82F " # 
-    TEST_ICON="\uE891" # 
-    OK_ICON="\u2713" # ✓
-    FAIL_ICON="\u2718" # ✘
+    ROOT_ICON="\uF201" # 
+    RUBY_ICON="\uF247" # 
+    AWS_ICON="\uF295" # 
+    BACKGROUND_JOBS_ICON="\uF22F " # 
+    TEST_ICON="\uF291" # 
+    OK_ICON="\uF00C" # 
+    FAIL_ICON="\uF00D" # 
     SYMFONY_ICON="SF"
-    VCS_UNTRACKED_ICON="\uE16C" # 
-    VCS_UNSTAGED_ICON="\uE17C" # 
-    VCS_STAGED_ICON="\uE168" # 
-    VCS_STASH_ICON="\uE133 " # 
-    #VCS_INCOMING_CHANGES="\uE1EB " # 
-    #VCS_INCOMING_CHANGES="\uE80D " # 
-    VCS_INCOMING_CHANGES="\uE131 " # 
-    #VCS_OUTGOING_CHANGES="\uE1EC " # 
-    #VCS_OUTGOING_CHANGES="\uE80E " # 
-    VCS_OUTGOING_CHANGES="\uE132 " # 
-    VCS_TAG_ICON="\uE817 " # 
-    VCS_BOOKMARK_ICON="\uE87B" # 
-    VCS_COMMIT_ICON="\uE821 " # 
-    VCS_BRANCH_ICON="\uE220" # 
-    VCS_REMOTE_BRANCH_ICON=" \uE804 " # 
-    VCS_GIT_ICON="\uE20E  " # 
-    VCS_HG_ICON="\uE1C3  " # 
+    VCS_UNTRACKED_ICON="\uF059" # 
+    VCS_UNSTAGED_ICON="\uF06A" # 
+    VCS_STAGED_ICON="\uF055" # 
+    VCS_STASH_ICON="\uF01C " # 
+    #VCS_INCOMING_CHANGES="\uF0ED " # 
+    #VCS_INCOMING_CHANGES="\uF20D " # 
+    VCS_INCOMING_CHANGES="\uF01A " # 
+    #VCS_OUTGOING_CHANGES="\uF0EE " # 
+    #VCS_OUTGOING_CHANGES="\uF20E " # 
+    VCS_OUTGOING_CHANGES="\uF01B " # 
+    VCS_TAG_ICON="\uF217 " # 
+    VCS_BOOKMARK_ICON="\uF27B" # 
+    VCS_COMMIT_ICON="\uF221 " # 
+    VCS_BRANCH_ICON="\uF222 " # 
+    VCS_REMOTE_BRANCH_ICON=" \uF207 " # 
+    VCS_GIT_ICON="\uF20C  " # 
+    VCS_HG_ICON="\uF0C3  " # 
   ;;
   *)
     # Powerline-Patched Font required!
@@ -470,7 +470,7 @@ prompt_longstatus() {
   symbols=()
 
   if [[ "$RETVAL" -ne 0 ]]; then
-    symbols+="%F{226}%? ↵"
+    symbols+="%F{226}%? \uF112"
     bg="009"
   else
     symbols+="%{%F{"046"}%}$OK_ICON"
