@@ -59,8 +59,8 @@ case $POWERLEVEL9K_MODE in
     AWS_ICON="\uF295" # 
     BACKGROUND_JOBS_ICON="\uF22F " # 
     TEST_ICON="\uF291" # 
-    OK_ICON="\u2713" # ✓
-    FAIL_ICON="\u2718" # ✘
+    OK_ICON="\uF058" # 
+    FAIL_ICON="\uF057" # 
     SYMFONY_ICON="SF"
     VCS_UNTRACKED_ICON="\uF059" # 
     VCS_UNSTAGED_ICON="\uF06A" # 
@@ -115,8 +115,8 @@ case $POWERLEVEL9K_MODE in
     AWS_ICON="\uF295" # 
     BACKGROUND_JOBS_ICON="\uF22F " # 
     TEST_ICON="\uF291" # 
-    OK_ICON="\uF00C" # 
-    FAIL_ICON="\uF00D" # 
+    OK_ICON="\uF058" # 
+    FAIL_ICON="\uF057" # 
     SYMFONY_ICON="SF"
     VCS_UNTRACKED_ICON="\uF059" # 
     VCS_UNSTAGED_ICON="\uF06A" # 
@@ -470,10 +470,10 @@ prompt_longstatus() {
   symbols=()
 
   if [[ "$RETVAL" -ne 0 ]]; then
-    symbols+="%F{226}%? \uF112"
+    symbols+="%F{182}%? \uF112"
     bg="009"
   else
-    symbols+="%{%F{"046"}%}$OK_ICON"
+    symbols+="%{%F{"154"}%}$OK_ICON"
     bg="008"
   fi
 
